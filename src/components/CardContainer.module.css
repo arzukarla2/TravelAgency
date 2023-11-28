@@ -1,0 +1,68 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.istanbulTurkey {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.flights {
+  position: relative;
+  font-weight: 500;
+}
+.flightsParent,
+.istanbulTurkeyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.flightsParent {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--montserrat-medium-14-size);
+}
+.istanbulTurkeyParent {
+  flex: 1;
+  flex-direction: column;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  align-items: center;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+.frameParent {
+  width: 1232px;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

@@ -1,0 +1,230 @@
+.letsGoPlaces {
+  position: relative;
+  font-weight: 600;
+}
+.discoverTheLatest {
+  position: relative;
+  font-size: var(--tradegothic-bold-16-size);
+}
+.letsGoPlacesTogetherParent {
+  width: 609px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonWrapper {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+}
+.frameGroup {
+  width: 1232px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.emojioneV1worldMapIcon,
+.fluentarrowForward20FilledIcon {
+  position: absolute;
+  top: 231px;
+  left: 708px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.emojioneV1worldMapIcon {
+  top: 388px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--mint-green);
+  width: 1440px;
+  height: 800px;
+}
+.groupIcon {
+  position: absolute;
+  height: 124.17%;
+  width: 85.48%;
+  top: 0;
+  right: 7.29%;
+  bottom: -24.17%;
+  left: 7.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  border-radius: var(--br-11xs);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.frameItem,
+.jamesDoe {
+  position: relative;
+}
+.boardingPassN123 {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  font-family: var(--montserrat-medium-14);
+}
+.jamesDoeParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rectangleParent {
+  position: absolute;
+  top: 294px;
+  left: 467px;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.frameInner {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 40px;
+  object-fit: cover;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 89px;
+  left: 990px;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.rectangleIcon {
+  position: relative;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.frameDiv,
+.rectangleContainer {
+  position: absolute;
+  top: 72px;
+  left: 305px;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.frameDiv {
+  top: 280px;
+  left: 774px;
+}
+.fluentarrowForward20Filled {
+  position: absolute;
+  top: 231px;
+  left: 708px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frameChild2,
+.frameChild3,
+.vectorIcon {
+  position: absolute;
+  top: 346.42px;
+  left: 455px;
+  width: 61.5px;
+  height: 31.14px;
+  object-fit: cover;
+}
+.frameChild2,
+.frameChild3 {
+  top: 142.41px;
+  left: 960px;
+  width: 97px;
+  height: 48.59px;
+}
+.frameChild3 {
+  top: 124.42px;
+  left: 350px;
+  width: 61.5px;
+  height: 31.14px;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 260px;
+  left: 1137px;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.fluentarrowForward20FilledParent {
+  position: relative;
+  width: 1440px;
+  height: 486px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-3xs);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--color-black);
+  font-family: var(--montserrat-medium-14);
+}

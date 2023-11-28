@@ -1,0 +1,93 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-xs);
+  width: 296px;
+  height: 420px;
+  object-fit: cover;
+  z-index: 0;
+}
+.anAmazingJourney,
+.melbourne {
+  align-self: stretch;
+  position: relative;
+}
+.melbourne {
+  font-weight: 600;
+}
+.anAmazingJourney {
+  font-size: var(--montserrat-medium-14-size);
+}
+.melbourneParent {
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.styleLayer {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button,
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.button {
+  width: 248px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+}
+.frameGroup {
+  margin: 0 !important;
+  position: absolute;
+  top: 286px;
+  left: 24px;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.frameGroup,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--tradegothic-bold-24-size);
+  color: var(--neutrals);
+  font-family: var(--montserrat-medium-14);
+}

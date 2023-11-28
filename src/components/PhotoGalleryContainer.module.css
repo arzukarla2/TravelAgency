@@ -1,0 +1,99 @@
+.frameChild {
+  border-radius: var(--br-xs) 0 0 var(--br-xs);
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameInner {
+  border-radius: 0 var(--br-xs) 0 0;
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameChild1,
+.rectangleIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.frameChild1 {
+  border-radius: 0 0 var(--br-xs) 0;
+  z-index: 1;
+}
+.button1 {
+  position: relative;
+  font-weight: 600;
+}
+.styleLayer {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button {
+  margin: 0 !important;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.rectangleContainer {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.frameParent,
+.rectangleContainer,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.rectangleParent {
+  position: absolute;
+  top: 320px;
+  left: 104px;
+  width: 1232px;
+  height: 550px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

@@ -1,0 +1,37 @@
+.starsIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.nearPark {
+  position: relative;
+  font-weight: 500;
+}
+.frameWrapper,
+.starsParent {
+  display: flex;
+  align-items: flex-start;
+}
+.starsParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.frameWrapper {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  width: 160px;
+  height: 145px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-45xl) var(--padding-base)
+    var(--padding-base);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

@@ -1,0 +1,78 @@
+.button1,
+.locationmap {
+  position: relative;
+}
+.button1 {
+  font-weight: 600;
+}
+.styleLayer {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.locationmapParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameChild,
+.locationIcon {
+  position: relative;
+  object-fit: cover;
+}
+.frameChild {
+  border-radius: var(--br-base);
+  width: 1232px;
+  height: 450px;
+}
+.locationIcon {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.gmssuyuMahInn {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.frameParent,
+.locationParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameParent,
+.rectangleParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent {
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-20-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}

@@ -1,0 +1,334 @@
+.emiratesA380Airbus {
+  position: relative;
+}
+.emiratesA380AirbusWrapper,
+.frameWrapper,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wrapper {
+  align-items: flex-end;
+  text-align: right;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--slamon);
+  font-family: var(--montserrat-medium-14);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.h28m {
+  position: relative;
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  opacity: 0.75;
+}
+.returnWedDec8Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--tradegothic-bold-16-size);
+}
+.kisspngDubaiAirbusA380EmirIcon {
+  position: relative;
+  width: 64px;
+  height: 44.49px;
+  object-fit: cover;
+}
+.airbusA320,
+.emirates {
+  position: relative;
+  font-weight: 600;
+}
+.airbusA320 {
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  opacity: 0.6;
+}
+.emiratesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.kisspngDubaiAirbusA380EmirParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals);
+  border: 0.5px solid var(--mint-green);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  gap: var(--gap-5xl);
+}
+.airplaneIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+}
+.airplaneParent,
+.pmWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.airplaneParent {
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  align-items: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.pmWrapper {
+  align-items: flex-start;
+}
+.newarkewr {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.frameParent3,
+.newarkewrWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.newarkewrWrapper {
+  align-items: flex-start;
+  font-size: var(--tradegothic-bold-16-size);
+}
+.frameParent3 {
+  align-items: center;
+  gap: var(--gap-base);
+}
+.airplaneIcon1,
+.lineIcon {
+  position: relative;
+  width: 38.67px;
+  height: 5.33px;
+  object-fit: cover;
+}
+.airplaneIcon1 {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameGroup,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-items: center;
+  gap: var(--gap-5xl);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.frameDiv,
+.frameGroup {
+  align-self: stretch;
+}
+.frameDiv {
+  align-items: center;
+  gap: var(--gap-21xl);
+  font-family: var(--montserrat-medium-14);
+}
+.frameGroup {
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  align-items: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-5xl);
+  font-size: var(--tradegothic-bold-24-size);
+}
+.payTheTotal {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.container,
+.stateLayer {
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+}
+.container,
+.frameParent6,
+.radioButtons {
+  display: flex;
+  flex-direction: row;
+}
+.radioButtons {
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent6 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--mint-green);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base);
+}
+.payPartNow {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--tradegothic-bold-16);
+}
+.pay20743Now {
+  margin: 0;
+}
+.pay20743NowContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  display: inline-block;
+  height: 55px;
+  flex-shrink: 0;
+}
+.moreInfo {
+  position: relative;
+  font-size: var(--tradegothic-bold-12-size);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.payPartNowPartLaterParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameParent5,
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent7 {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-27xl);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent5 {
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+.visaIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.parent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent9,
+.parent,
+.visaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.visaParent {
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.frameParent9 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--mint-green);
+  justify-content: space-between;
+  padding: var(--padding-base);
+}
+.addCircle {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addANew {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.addCircleParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+}
+.addCircleParent {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  border: 2px dashed var(--mint-green);
+  box-sizing: border-box;
+  height: 188.83px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-3xs);
+  font-size: var(--tradegothic-bold-12-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent {
+  width: 790px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}

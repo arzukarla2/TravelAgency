@@ -1,0 +1,63 @@
+.rating {
+  position: relative;
+  font-weight: 600;
+}
+.chevronDownIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ratingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonWrapper {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button,
+.buttonParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  width: 40px;
+  flex-direction: column;
+}
+.buttonParent,
+.frameParent {
+  gap: var(--gap-base);
+}
+.buttonParent {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--tradegothic-bold-12-size);
+}
+.frameParent {
+  width: 343px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

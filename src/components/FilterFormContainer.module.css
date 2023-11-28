@@ -1,0 +1,65 @@
+.filters {
+  position: relative;
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 600;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--blackish-green);
+  width: 343px;
+  height: 0.5px;
+  opacity: 0.25;
+}
+.airlines {
+  position: relative;
+  font-weight: 600;
+}
+.chevronDown {
+  position: relative;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.airlinesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.airlinesParent,
+.frameFormcontrollabel {
+  align-self: stretch;
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  gap: var(--gap-base);
+}
+.chevronDownIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.filtersParent {
+  position: absolute;
+  top: 287px;
+  left: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

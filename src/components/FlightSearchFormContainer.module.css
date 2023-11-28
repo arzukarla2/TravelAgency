@@ -1,0 +1,149 @@
+.whereAreYou {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 600;
+}
+.textField {
+  flex: 1;
+}
+.textField2 {
+  align-self: stretch;
+}
+.supportingText1 {
+  flex: 1;
+  position: relative;
+}
+.supportingText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+}
+.textField1,
+.textField4 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textField1 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 140px;
+  height: 56px;
+  display: flex;
+  justify-content: flex-start;
+}
+.textField4 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  border: 1px solid var(--color-gray-200);
+}
+.textField3,
+.textField4,
+.textFieldParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.textField3 {
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  height: 56px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFieldParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+  color: var(--color-gray-300);
+}
+.addOutlineIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  color: var(--blackish-green);
+  text-align: left;
+}
+.styleLayer1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.showFlights {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.whereAreYouFlyingParent {
+  position: absolute;
+  top: 551px;
+  left: 101px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals);
+  box-shadow: 0 4px 16px rgba(141, 211, 187, 0.15);
+  width: 1232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-5xl) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

@@ -1,0 +1,86 @@
+.hotels {
+  position: relative;
+  font-weight: 600;
+}
+.hotelsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.places {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  opacity: 0.4;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  z-index: 0;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+  z-index: 1;
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.frameItem {
+  position: relative;
+  border-right: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+  z-index: 3;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  z-index: 4;
+}
+.frameInner {
+  position: absolute;
+  margin: 0 !important;
+  top: 78px;
+  left: 16px;
+  border-top: 4px solid var(--mint-green);
+  box-sizing: border-box;
+  width: 252px;
+  height: 4px;
+  z-index: 5;
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

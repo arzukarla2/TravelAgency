@@ -1,0 +1,44 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.istanbulTurkey {
+  position: relative;
+  font-weight: 600;
+}
+.places {
+  position: relative;
+  font-size: var(--tradegothic-bold-12-size);
+  opacity: 0.75;
+}
+.frameParent,
+.istanbulTurkeyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

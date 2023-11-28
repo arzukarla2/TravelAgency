@@ -1,0 +1,72 @@
+.checkboxIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.pm {
+  position: relative;
+  font-weight: 600;
+}
+.pmParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.emirates {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  opacity: 0.4;
+}
+.checkboxParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.checkboxParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.nonStop {
+  font-size: var(--montserrat-medium-14-size);
+}
+.h28m,
+.nonStop {
+  position: relative;
+  font-weight: 600;
+  opacity: 0.78;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

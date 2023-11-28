@@ -1,0 +1,122 @@
+.frameChild {
+  flex: 1;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 120px;
+  object-fit: cover;
+}
+.economy {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.emiratesA380Airbus {
+  position: relative;
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 600;
+}
+.economyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.buttonWrapper {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviews {
+  font-weight: 500;
+}
+.veryGood54Container {
+  position: relative;
+}
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--tradegothic-bold-12-size);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--blackish-green);
+  height: 0.5px;
+  opacity: 0.25;
+}
+.priceDetails {
+  position: relative;
+  font-family: var(--tradegothic-bold-16);
+}
+.baseFare,
+.div {
+  position: relative;
+  font-weight: 500;
+}
+.div {
+  font-weight: 600;
+}
+.baseFareParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameParent,
+.priceDetailsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.priceDetailsParent {
+  align-self: stretch;
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

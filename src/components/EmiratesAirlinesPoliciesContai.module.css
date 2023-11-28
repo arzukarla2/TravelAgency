@@ -1,0 +1,62 @@
+.emiratesAirlinesPolicies {
+  position: relative;
+}
+.ionstopwatchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.preFlightCleaningInstallat {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.ionstopwatchParent {
+  width: 571px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.preFlightHealthScreening {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 1232px;
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+.emiratesAirlinesPoliciesParent,
+.frameParent,
+.ionstopwatchGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ionstopwatchGroup {
+  width: 508px;
+  align-items: center;
+}
+.emiratesAirlinesPoliciesParent,
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  font-size: var(--tradegothic-bold-16-size);
+  font-family: var(--montserrat-medium-14);
+}
+.emiratesAirlinesPoliciesParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumaquamarine-200);
+  flex-direction: column;
+  padding: var(--padding-base);
+  text-align: left;
+  font-size: var(--tradegothic-bold-24-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}

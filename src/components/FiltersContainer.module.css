@@ -1,0 +1,53 @@
+.price {
+  position: relative;
+  font-weight: 600;
+}
+.chevronDownIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.priceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.div,
+.div1,
+.slider {
+  position: relative;
+}
+.div,
+.div1 {
+  font-weight: 500;
+}
+.div1 {
+  text-align: right;
+}
+.frameParent,
+.parent,
+.sliderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-266xl);
+}
+.frameParent,
+.sliderParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--tradegothic-bold-12-size);
+}
+.frameParent {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

@@ -1,0 +1,106 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  width: 604px;
+}
+.frameChild {
+  left: 0;
+  border-radius: var(--br-xl);
+  height: 559px;
+  object-fit: cover;
+}
+.frameItem {
+  left: 604px;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(18, 18, 18, 0.75) 48.67%
+  );
+  height: 280px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.flights,
+.searchFlights {
+  position: relative;
+  display: inline-block;
+  width: 389px;
+}
+.searchFlights {
+  font-size: var(--tradegothic-bold-16-size);
+  font-family: var(--montserrat-medium-14);
+}
+.flightsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.paperPlaneIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  color: var(--blackish-green);
+  text-align: left;
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.frameParent,
+.showFlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.showFlights {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 93px;
+  left: 114px;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 279px;
+  left: 0;
+  width: 604px;
+  height: 280px;
+}
+.rectangleParent {
+  position: relative;
+  box-shadow: var(--cards-shadow);
+  width: 604px;
+  height: 559px;
+  text-align: center;
+  font-size: var(--tradegothic-bold-40-size);
+  color: var(--neutrals);
+  font-family: var(--tradegothic-bold-16);
+}

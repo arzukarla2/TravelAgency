@@ -1,0 +1,77 @@
+.planYourPerfect,
+.searchFlights {
+  align-self: stretch;
+  position: relative;
+}
+.planYourPerfect {
+  font-weight: 600;
+  display: inline-block;
+  height: 36px;
+  flex-shrink: 0;
+}
+.searchFlights {
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  opacity: 0.75;
+}
+.planYourPerfectTripParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonWrapper {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+}
+.frameGroup {
+  width: 1232px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+}
+.frameParent {
+  position: absolute;
+  top: 892px;
+  left: 104px;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--color-black);
+  font-family: var(--montserrat-medium-14);
+}

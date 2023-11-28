@@ -1,0 +1,184 @@
+.fallIntoTravel {
+  margin: 0;
+}
+.fallIntoTravelContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 36px;
+  flex-shrink: 0;
+}
+.goingSomewhereTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--tradegothic-bold-16-size);
+}
+.fallIntoTravelParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonWrapper {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.backpackingSriLanka {
+  position: relative;
+  display: inline-block;
+  width: 363px;
+  flex-shrink: 0;
+}
+.div,
+.from {
+  position: relative;
+}
+.div {
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 600;
+  font-family: var(--montserrat-medium-14);
+}
+.fromParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  gap: var(--gap-9xs);
+  font-size: var(--montserrat-medium-14-size);
+}
+.backpackingSriLankaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.travelingIsA {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent1,
+.styleLayer {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.frameParent1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  height: 48px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button2,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  align-self: stretch;
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameDiv {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--mint-green);
+  height: 424px;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-101xl);
+}
+.frameChild {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  object-fit: cover;
+}
+.rectangleParent {
+  width: 656px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameContainer,
+.frameParent,
+.frameParent2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameParent2 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer,
+.frameParent {
+  align-items: center;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--tradegothic-bold-40-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}
+.frameParent {
+  width: 1232px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--color-black);
+  font-family: var(--montserrat-medium-14);
+}

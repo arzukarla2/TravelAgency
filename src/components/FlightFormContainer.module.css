@@ -1,0 +1,185 @@
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 77px;
+  left: 31px;
+  border-top: 4px solid var(--mint-green);
+  box-sizing: border-box;
+  width: 104px;
+  height: 4px;
+  z-index: 0;
+}
+.airplaneIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.flights {
+  position: relative;
+  font-weight: 600;
+}
+.airplaneParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameItem {
+  position: relative;
+  border-right: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.textField {
+  flex: 1;
+}
+.textField2 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportingText1 {
+  flex: 1;
+  position: relative;
+}
+.supportingText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+}
+.textField1 {
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  height: 56px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent,
+.textField1,
+.textFieldParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.textFieldParent {
+  width: 1184px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--color-gray-300);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-29xl);
+  z-index: 1;
+}
+.addOutlineIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button3 {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  color: var(--blackish-green);
+  text-align: left;
+}
+.styleLayer1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+  z-index: 2;
+  font-size: var(--montserrat-medium-14-size);
+}
+.lineParent {
+  position: absolute;
+  top: 532px;
+  left: 104px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals);
+  box-shadow: 0 4px 16px rgba(141, 211, 187, 0.15);
+  width: 1232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-13xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

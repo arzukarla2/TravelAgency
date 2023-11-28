@@ -1,0 +1,251 @@
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs) 0 0 var(--br-xs);
+  max-height: 100%;
+  width: 300px;
+  object-fit: cover;
+  z-index: 0;
+}
+.images {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.imagesWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  left: 220px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(4px);
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.eresinHotelsSultanahmet {
+  align-self: stretch;
+  position: relative;
+}
+.locationIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.locationParent {
+  gap: var(--gap-11xs);
+}
+.locationParent,
+.starParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starHotel {
+  font-weight: 500;
+}
+.aminities,
+.starHotel {
+  position: relative;
+}
+.cafeParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.buttonWrapper,
+.cafeParent,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.buttonWrapper {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviews {
+  font-weight: 500;
+}
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.eresinHotelsSultanahmetBoParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  gap: var(--gap-xs);
+  font-size: var(--tradegothic-bold-12-size);
+  font-family: var(--montserrat-medium-14);
+}
+.eresinHotelsSultanahmetBoParent {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.startingFrom {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  text-align: left;
+  opacity: 0.75;
+}
+.night1 {
+  font-size: var(--montserrat-medium-14-size);
+}
+.exclTax,
+.night {
+  position: relative;
+}
+.night {
+  color: var(--slamon);
+  font-size: var(--tradegothic-bold-24-size);
+}
+.exclTax {
+  align-self: stretch;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.frameGroup,
+.startingFromParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.startingFromParent {
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font-size: var(--tradegothic-bold-12-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--blackish-green);
+  height: 0.5px;
+  opacity: 0.25;
+}
+.heartIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button4 {
+  position: relative;
+  font-weight: 600;
+}
+.styleLayer1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonGroup {
+  width: 492px;
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.buttonGroup,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--neutrals);
+  width: 540px;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  z-index: 2;
+  font-size: var(--tradegothic-bold-20-size);
+  font-family: var(--tradegothic-bold-16);
+}
+.rectangleParent {
+  box-shadow: var(--cards-shadow);
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--tradegothic-bold-12-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

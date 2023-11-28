@@ -1,0 +1,27 @@
+.yourRecentSearches {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  flex-shrink: 0;
+}
+.frameParent,
+.yourRecentSearchesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--tradegothic-bold-16-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}
+.yourRecentSearchesParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--color-black);
+  font-family: var(--tradegothic-bold-16);
+}

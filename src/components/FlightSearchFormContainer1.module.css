@@ -1,0 +1,261 @@
+.whereAreYou {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--tradegothic-bold-20-size);
+  font-weight: 600;
+}
+.component24Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.stateLayer1 {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.leadingIcon,
+.stateLayer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.leadingIcon {
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+.stateLayer,
+.textField1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-9xs) 0;
+}
+.textField1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  border: 1px solid var(--color-gray-200);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.supportingText1 {
+  flex: 1;
+  position: relative;
+}
+.supportingText,
+.textField {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportingText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+}
+.textField {
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+}
+.inputText {
+  z-index: 0;
+}
+.labelText1 {
+  position: relative;
+}
+.labelText {
+  margin: 0 !important;
+  position: absolute;
+  top: -16px;
+  left: -4px;
+  background-color: var(--neutrals);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  z-index: 1;
+}
+.content1,
+.trailingIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content1 {
+  flex: 1;
+  height: 40px;
+  align-items: flex-start;
+  position: relative;
+}
+.trailingIcon {
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.stateLayer2,
+.supportingText2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.stateLayer2 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) 0 var(--padding-9xs) var(--padding-base);
+}
+.supportingText2 {
+  display: none;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+  color: var(--color-gray-300);
+}
+.stateLayer4,
+.textField2 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+}
+.textField2 {
+  width: 240px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--blackish-green);
+}
+.stateLayer4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs) 0;
+}
+.stateLayer4,
+.textField6,
+.textFieldParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.textField6 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 240px;
+  height: 56px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFieldParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  color: var(--color-gray-300);
+}
+.addOutlineIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.styleLayer {
+  border-radius: var(--br-9xs);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  color: var(--blackish-green);
+  text-align: left;
+}
+.styleLayer1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.showPlaces {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.whereAreYouFlyingParent {
+  position: absolute;
+  top: 550px;
+  left: 104px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  width: 1232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}

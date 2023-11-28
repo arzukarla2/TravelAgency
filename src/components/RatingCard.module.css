@@ -1,0 +1,144 @@
+.reviews {
+  position: relative;
+}
+.styleLayer {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.reviewsParent {
+  width: 1232px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.veryGood {
+  position: relative;
+  font-weight: 600;
+}
+.verifiedReviews {
+  position: relative;
+  font-size: var(--montserrat-medium-14-size);
+}
+.veryGoodParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--tradegothic-bold-20-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameGroup,
+.parent,
+.veryGoodParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  font-size: var(--font-size-31xl);
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameChild {
+  position: relative;
+  background-color: var(--blackish-green);
+  width: 1232px;
+  height: 0.5px;
+  opacity: 0.25;
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.amazingParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.flagIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0.75;
+}
+.ellipseParent {
+  width: 1232px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.chevronForwardIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.chevronForwardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--montserrat-medium-14-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent {
+  text-align: left;
+  font-size: var(--tradegothic-bold-20-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}

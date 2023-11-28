@@ -1,0 +1,166 @@
+.h28m,
+.returnWedDec {
+  position: relative;
+}
+.h28m {
+  font-weight: 500;
+  font-family: var(--montserrat-medium-14);
+  opacity: 0.75;
+}
+.returnWedDec8Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-881xl);
+}
+.kisspngDubaiAirbusA380EmirIcon {
+  position: relative;
+  width: 64px;
+  height: 44.49px;
+  object-fit: cover;
+}
+.airbusA320,
+.emirates {
+  position: relative;
+  font-weight: 600;
+}
+.airbusA320 {
+  font-size: var(--montserrat-medium-14-size);
+  font-weight: 500;
+  opacity: 0.6;
+}
+.emiratesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.kisspngDubaiAirbusA380EmirParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals);
+  border: 0.5px solid var(--mint-green);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  gap: var(--gap-5xl);
+}
+.airplaneIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+}
+.airplaneParent {
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.airplaneParent,
+.frameContainer,
+.pmWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.pmWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.newarkewr {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.frameParent1,
+.newarkewrWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.newarkewrWrapper {
+  align-items: flex-start;
+  font-size: var(--tradegothic-bold-16-size);
+}
+.frameParent1 {
+  align-items: center;
+  gap: var(--gap-base);
+}
+.airplaneIcon1,
+.lineIcon {
+  position: relative;
+  width: 38.67px;
+  height: 5.33px;
+  object-fit: cover;
+}
+.airplaneIcon1 {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv,
+.vectorParent {
+  display: flex;
+  align-items: center;
+}
+.vectorParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-121xl);
+  gap: var(--gap-61xl);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 1200px;
+  align-items: center;
+  gap: var(--gap-21xl);
+  font-size: var(--tradegothic-bold-24-size);
+  font-family: var(--montserrat-medium-14);
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  align-items: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--tradegothic-bold-20-size);
+  color: var(--blackish-green);
+  font-family: var(--tradegothic-bold-16);
+}

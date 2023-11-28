@@ -1,0 +1,89 @@
+.textField {
+  flex: 1;
+}
+.textField2 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutrals);
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportingText1 {
+  flex: 1;
+  position: relative;
+}
+.supportingText,
+.textField1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportingText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+}
+.textField1 {
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+}
+.searchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.styleLayer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--mint-green);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button,
+.textFieldParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  width: 56px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textFieldParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.flightListingInner {
+  position: absolute;
+  top: 135px;
+  left: 104px;
+  border-radius: var(--br-base);
+  background-color: var(--neutrals);
+  box-shadow: var(--cards-shadow);
+  width: 1232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--color-gray-300);
+  font-family: var(--montserrat-medium-14);
+}

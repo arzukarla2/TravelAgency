@@ -1,0 +1,69 @@
+.fallIntoTravel {
+  margin: 0;
+}
+.fallIntoTravelContainer {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 36px;
+  flex-shrink: 0;
+}
+.goingSomewhereTo {
+  position: relative;
+  font-size: var(--tradegothic-bold-16-size);
+  font-family: var(--montserrat-medium-14);
+  display: inline-block;
+  width: 851px;
+}
+.fallIntoTravelParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttonWrapper {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--mint-green);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.button {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--montserrat-medium-14-size);
+  color: var(--blackish-green);
+  font-family: var(--montserrat-medium-14);
+}
+.button,
+.frameGroup,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 1232px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--montserrat-semibold-32-size);
+  color: var(--color-black);
+  font-family: var(--tradegothic-bold-16);
+}
